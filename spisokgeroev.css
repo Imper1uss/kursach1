@@ -1,0 +1,803 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1; 
+	background-image: url('spisokgeroev.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100% 100%;
+    min-width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 3%;
+}
+
+.block{
+	border: 1px solid black;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+}
+
+h1{
+	font-size: 170%;
+	word-spacing: 10px;
+	text-shadow: 1px 1px green;
+	text-decoration: underline;
+	line-height: 1.7;
+	margin: 0 5%;
+}
+
+#nav li{
+	float: left;
+	position: relative;
+	background: darkblue;
+	width: 25%;
+	height: 50px;
+	text-align: center;
+}
+
+.name{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	position: relative;
+}
+
+h2{
+	font-size: 400%;
+	font-family: 'Tangerine', cursive;
+	color: green;
+}
+
+hr{
+	width: 99.7%;
+}
+
+.copyr{
+	text-align: center;
+	margin: 4% 0;
+}
+
+.foot{
+	position: relative; 
+    left: 1; bottom: 0; 
+	width: 100%;
+}
+
+.Abaddon{
+	background-image: url('Abaddon.jpg');
+	width: 100px;
+	height: 60px;	
+}
+
+.Alchemist{
+	background-image: url('Alchemist.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Axe{
+	background-image: url('Axe.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Beastmaster{
+	background-image: url('Beastmaster.jpg');	
+	width: 100px;
+	height: 60px;
+}
+
+.Brewmaster{
+	background-image: url('Brewmaster.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Bristelback{
+	background-image: url('Bristelback.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Centaur_Warrunner{
+	background-image: url('Centaur Warrunner.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Chaos_Knight{
+	background-image: url('Chaos Knight.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Clockwerk{
+	background-image: url('Clockwerk.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Doom{
+	background-image: url('Doom.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Dragon_Knight{
+	background-image: url('Dragon Knight.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Earth_Spirit{
+	background-image: url('Earth Spirit.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Earthshaker{
+	background-image: url('Earthshaker.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Elder_Titan{
+	background-image: url('Elder Titan.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Huskar{
+	background-image: url('Huskar.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Io{
+	background-image: url('Io.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Kunkka{
+	background-image: url('Kunkka.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Legion_Commander{
+	background-image: url('Legion Commander.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Lifestealer{
+	background-image: url('Lifestealer.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Lycan{
+	background-image: url('Lycan.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Magnus{
+	background-image: url('Magnus.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Night_Stalker{
+	background-image: url('Night Stalker.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Omniknight{
+	background-image: url('Omniknight.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Phoenix{
+	background-image: url('Phoenix.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Pudge{
+	background-image: url('Pudge.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Sand_King{
+	background-image: url('Sand King.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Slardar{
+	background-image: url('Slardar.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Spirit_Breaker{
+	background-image: url('Spirit Breaker.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Sven{
+	background-image: url('Sven.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Tidehunter{
+	background-image: url('Tidehunter.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Timbersaw{
+	background-image: url('Timbersaw.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Tiny{
+	background-image: url('Tiny.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Treant_Protector{
+	background-image: url('Treant Protector.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Tusk{
+	background-image: url('Tusk.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Underlord{
+	background-image: url('Underlord.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Undying{
+	background-image: url('Undying.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Wraith_King{
+	background-image: url('Wraith King.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Anti-Mage{
+	background-image: url('Anti-Mage.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Arc_Warden{
+	background-image: url('Arc Warden.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Bloodseeker{
+	background-image: url('Bloodseeker.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Bounty_Hunter{
+	background-image: url('Bounty Hunter.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Broodmother{
+	background-image: url('Broodmother.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Clinkz{
+	background-image: url('Clinkz.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Drow_Ranger{
+	background-image: url('Drow Ranger.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Ember_Spirit{
+	background-image: url('Ember Spirit.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Faceless_Void{
+	background-image: url('Faceless Void.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Gyrocopter{
+	background-image: url('Gyrocopter.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Juggernaut{
+	background-image: url('Juggernaut.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Lone_Druid{
+	background-image: url('Lone Druid.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Luna{
+	background-image: url('Luna.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Medusa{
+	background-image: url('Medusa.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Meepo{
+	background-image: url('Meepo.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Mirana{
+	background-image: url('Mirana.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Monkey_King{
+	background-image: url('Monkey King.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Morphling{
+	background-image: url('Morphling.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Naga_Siren{
+	background-image: url('Naga Siren.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Nyx_Assassin{
+	background-image: url('Nyx Assassin.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Pangolier{
+	background-image: url('Pangolier.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Phantom_Assassin{
+	background-image: url('Phantom\ Assassin.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Phantom_Lancer{
+	background-image: url('Phantom\ Lancer.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Razor{
+	background-image: url('Razor.jpg');
+	width: 100px;
+	height: 60px;
+}	
+
+.Riki{
+	background-image: url('Riki.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Shadow_Fiend{
+	background-image: url('Shadow\ Fiend.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Slark{
+	background-image: url('Slark.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Sniper{
+	background-image: url('Sniper.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Spectre{
+	background-image: url('Spectre.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Templar_Assassin{
+	background-image: url('Templar\ Assassin.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Terrorblade{
+	background-image: url('Terrorblade.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Troll_Warlord{
+	background-image: url('Troll\ Warlord.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Ursa{
+	background-image: url('Ursa.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Vengeful_Spirit{
+	background-image: url('Vengeful\ Spirit.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Venomancer{
+	background-image: url('Venomancer.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Viper{
+	background-image: url('Viper.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Weaver{
+	background-image: url('Weaver.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Ancient_Apparition{
+	background-image: url('Ancient\ Apparition.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Bane{
+	background-image: url('Bane.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Batrider{
+	background-image: url('Batrider.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Chen{
+	background-image: url('Chen.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Crystal_Maiden{
+	background-image: url('Crystal\ Maiden.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Dark_Seer{
+	background-image: url('Dark\ Seer.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Dark_Willow{
+	background-image: url('Dark\ Willow.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Dazzle{
+	background-image: url('Dazzle.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Death_Prophet{
+	background-image: url('Death\ Prophet.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Disruptor{
+	background-image: url('Disruptor.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Enchantress{
+	background-image: url('Enchantress.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Enigma{
+	background-image: url('Enigma.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Grimstroke{
+	background-image: url('Grimstroke.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Invoker{
+	background-image: url('Invoker.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Jakiro{
+	background-image: url('Jakiro.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Keeper_of_the_Light{
+	background-image: url('Keeper\ of\ the\ Light.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Leshrac{
+	background-image: url('Leshrac.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Lich{
+	background-image: url('Lich.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Lina{
+	background-image: url('Lina.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Lion{
+	background-image: url('Lion.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Natures_Prophet{
+	background-image: url('Nature`s\ Prophet.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Necrophos{
+	background-image: url('Necrophos.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Ogre_Magi{
+	background-image: url('Ogre\ Magi.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Oracle{
+	background-image: url('Oracle.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Outworld_Devourer{
+	background-image: url('Outworld\ Devourer.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Puck{
+	background-image: url('Puck.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Pugna{
+	background-image: url('Pugna.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Queen_of_Pain{
+	background-image: url('Queen\ of\ Pain.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Rubick{
+	background-image: url('Rubick.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Shadow_Demon{
+	background-image: url('Shadow\ Demon.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Shadow_Shaman{
+	background-image: url('Shadow\ Shaman.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Silencer{
+	background-image: url('Silencer.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Skywrath_Mage{
+	background-image: url('Skywrath\ Mage.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Storm_Spirit{
+	background-image: url('Storm\ Spirit.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Techies{
+	background-image: url('Techies.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Tinker{
+	background-image: url('Tinker.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Visage{
+	background-image: url('Visage.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Warlock{
+	background-image: url('Warlock.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Windranger{
+	background-image: url('Windranger.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Winter_Wyvern{
+	background-image: url('Winter\ Wyvern.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Witch_Doctor{
+	background-image: url('Witch\ Doctor.jpg');
+	width: 100px;
+	height: 60px;
+}
+
+.Zeus{
+	background-image: url('Zeus.jpg');
+	width: 100px;
+	height: 60px;
+}
